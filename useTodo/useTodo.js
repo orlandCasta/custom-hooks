@@ -5,7 +5,7 @@ El reducer es una función pura que especifica cómo el estado actual se transfo
 */
 
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "./../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 const init = () => {
   return JSON.parse(localStorage.getItem("todos")) || [];
